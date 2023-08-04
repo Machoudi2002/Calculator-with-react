@@ -48,8 +48,6 @@ The calculator offers three color themes:
 
 - **Theme 3**: A vibrant and colorful calculator interface that adds a touch of liveliness to the app.
 
----
-
 ## Technologies Used
 - React.js - Frontend JavaScript library for building user interfaces.
 - HTML - Structure of the calculator.
