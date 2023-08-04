@@ -3,13 +3,12 @@
 ![Calculator Screenshot](calculator-screenshot.png)
 
 ## Description
-This is a simple calculator project built using React.js that allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The calculator also includes three color themes (light, dark, and vibrant) to provide users with a personalized experience.
+This is a simple calculator project built using React.js that allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The calculator also includes three color themes to provide users with a personalized experience.
 
 ## Features
 - Addition, subtraction, multiplication, and division operations are supported.
 - Users can perform calculations using the number buttons and operators.
 - The calculator offers three visually appealing color themes to choose from.
-- The selected color theme is persisted across sessions using local storage.
 - Responsive design ensures compatibility with various devices.
 
 ## Installation
