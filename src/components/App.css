@@ -1,0 +1,131 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: 900;
+
+
+}
+
+header {
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.spacing {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.spacing span {
+    margin-right: 10px ;
+}
+
+.spacing button {
+    padding: 5px 7px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    
+
+}
+
+.radius {
+    border-radius: 10px;
+
+}
+
+.grid {
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backcolor {
+    background-color: hsl(0, 0%, 93%);
+    font-size: x-large;
+
+}
+.pointer {
+    cursor: pointer;
+}
+
+.bigfont {
+    font-size: 40px;
+}
+
+.output { grid-area: 1 / 1 / 3 / 5; text-align: right;; margin-bottom: 10px; overflow-wrap: break-word;}
+.reset { grid-area: 7 / 1 / 8 / 3;  }
+.equal { grid-area: 7 / 3 / 8 / 5; }
+
+.button-sitting {
+    padding: 10px;
+    font-size: xx-large;
+    border: none;
+}
+
+.message {
+    color: red;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    color: #322653;
+}
+
+
+@media (min-width: 600px) {
+
+    .view {
+        margin: 50px 10vw;
+    }
+}
+
+@media (min-width: 900px) {
+
+    .view {
+        margin: 50px 20vw;
+    }
+}
+    
+@media (min-width: 1200px) {
+
+    .view {
+        margin: 60px 30vw;
+    }
+}
+ 
+
+
+.theme2 {
+    color: #FFF6E0;
+    background-color: #272829;
+}
+
+.theme3 {
+    color: #FFD2D7;
+    background-color: #322653;
+}
+
+
